@@ -6,7 +6,7 @@
 
 1. Navigate to the `backend` folder.
 2. Install dependencies: `npm install`.
-3. Create a `.env` file and add your API key.
+3. Create a `.env` file and add your API key. (NEWS_API_KEY=YOUR_API_KEY)
 4. Run the backend: `node server.js`.
 
 ### Frontend
