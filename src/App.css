@@ -1,17 +1,35 @@
+.search-icon {
+  color: #0d6efd; /* Set the color to the specified hex value */
+}
+
 .card-img-top {
   height: 300px; /* Consistent height for all images */
   object-fit: cover; /* This will crop the image to fill the container without distortion */
   width: 100%;
 }
 
-.btn-custom-grey {
-  background-color: #adb5bd; /* Lighter grey color */
-  border-color: #adb5bd; /* Match the border color */
-  color: black; /* Text color */
-  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effect */
+.read-more-btn {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: whitesmoke;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-.btn-custom-grey:hover {
-  background-color: #ced4da; /* Even lighter grey on hover */
-  border-color: #ced4da; /* Match the border color on hover */
+.read-more-btn:hover {
+  background-color: #0040a8;
+  border-color: #0040a8;
+  color: #bdd6ff;
+}
+
+.more-btn {
+  background-color: #bdd6ff;
+  border-color: #bdd6ff;
+  color: #0f6bff;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.more-btn:hover {
+  background-color: #669fff;
+  border-color: #669fff;
+  color: #0040a8;
 }

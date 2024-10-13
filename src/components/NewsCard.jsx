@@ -16,11 +16,9 @@ const NewsCard = ({ article }) => {
         <div className="card-body d-flex flex-column">
           <h5 className="card-title">{article.title}</h5>
           <p className="card-text">
-            <small className="text-muted">Source: {article.source.name}</small>
-          </p>
-          <p className="card-text">
             <small className="text-muted">
-              {new Date(article.publishedAt).toLocaleDateString()}
+              Source: {article.source.name} <br />
+              Published: {new Date(article.publishedAt).toLocaleDateString()}
             </small>
           </p>
           <div className="mt-auto">
@@ -28,7 +26,7 @@ const NewsCard = ({ article }) => {
               href={article.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary"
+              className="btn read-more-btn"
             >
               Read more
             </a>

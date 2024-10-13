@@ -66,7 +66,7 @@ const News = () => {
         <div className="col-12 col-md-4 mt-3 mt-md-0">
           <div className="input-group">
             <span className="input-group-text">
-              <FontAwesomeIcon icon={faSearch} />
+              <FontAwesomeIcon icon={faSearch} className="search-icon" />
             </span>
             <input
               type="text"
@@ -88,7 +88,7 @@ const News = () => {
       </div>
       {visibleArticles < filteredArticles.length && (
         <div className="text-center my-4">
-          <button className="btn btn-secondary" onClick={loadMoreArticles}>
+          <button className="btn more-btn" onClick={loadMoreArticles}>
             More Headlines
           </button>
         </div>
