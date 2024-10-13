@@ -25,6 +25,7 @@ const News = () => {
   }, []);
 
   const isValidArticle = (article) => {
+    // Check if all required fields are present and not equal to "[Removed]" so that the article is valid
     return (
       article.title &&
       article.source.name &&
